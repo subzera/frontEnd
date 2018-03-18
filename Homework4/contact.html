@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>About us</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <style>
+            span {
+            font-size:1.2em;
+            font-family: 'Nunito', sans-serif;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td width="400"><img src="logo.png" height="100"> </td>
+                <td width="250"><a href="index.html"><button>News</button></a></td>
+                <td width="250"><a href="contact.html"><button>Contact us</button></a></td>
+                <td><a href="gallery.html"><button>Gallery</button></a></td>
+            </tr>
+        </table>
+
+            <br />
+            <br />
+
+            <center> <img src="support.jpg"  width="900" height="125"/> </center>
+
+            <h1>Contact Form</h1>
+            <span><strong>Information for contact</strong></span>
+
+            <form method="POST" action="successful.html">
+
+                <span>Dear:</span>
+                <select>
+                    <option value="1">Mr.</option>
+                    <option value="2">Mrs.</option>
+                    <option value="3">Ms.</option>
+                </select>
+
+                <br />
+
+                <span>Name:</span>
+                <input type="text" placeholder="Your name here" name="fname" required />
+
+                <br />
+
+                <span>Last name</span>
+                <input type="text" placeholder="Your last name here" name="lname" required />
+
+                <br />
+
+                <span>Email:</span>
+                <input type="email" placeholder="Your email here" name="email" required />
+
+                <br />
+
+                <span>Telephone number:</span>
+                <input type="password" placeholder="Enter your telephone number" name="password" required />
+
+                <br />
+                <br />
+
+                <strong><span>Details</span></strong>
+
+                <br />
+
+                <span>In order to be able to respond as quickly and accurately as possible, please write your specific issue below.</span>
+
+                <br />
+
+                <span>Series of your current car</span>
+                <select>
+                    <option value="1">1 Series</option>
+                    <option value="2">2 Series</option>
+                    <option value="3">3 Series</option>
+                    <option value="4">4 Series</option>
+                    <option value="5">5 Series</option>
+                    <option value="6">6 Series</option>
+                    <option value="7">7 Series</option>
+                    <option value="8">8 Series</option>
+                </select>
+
+                <br />
+
+                <span>Reason for contacting us</span>
+                <select>
+                    <option value="1">Question about the new models</option>
+                    <option value="2">Question about your current car</option>
+                    <option value="3">Other question</option>
+                </select>
+
+                <br />
+
+                <span>За да обработим вашата заявка, поставете отметка в квадратчето в знак на съгласие с правната информация за предоставяне на лични данни, посочена по-долу.*</span>
+                <input type="checkbox"  required />
+
+                <br />
+
+                <input type="submit" value="Send your request" />
+
+            </form>
+
+    </body>
+</html>
