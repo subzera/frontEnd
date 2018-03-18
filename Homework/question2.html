@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Question 2,3</title>
+    </head>
+
+    <body>
+
+        <h1>Short space quiz</h1>
+
+        <span>After you select your answer, click the next button to go to the next question</span>
+
+        <h2>By listening to the audio track, can you guess how is the person speaking?</h2>
+
+
+        <form method="POST" action="question2.html">
+            <ol>
+                <li>
+                    <audio controls>
+                        <source src="Question2.mp3" type="audio/mpeg" />
+                        <span>Your browser does not support audio files</span>
+                    </audio>
+                </li>
+                <ol type="A">
+                    <li>
+                        <input id="answer1" type="radio">
+                        <label for="answer1">Darth Vader</label>
+                    </li>
+
+                    <li>
+                        <input id="answer2" type="radio">
+                        <label for="answer2">Terminator</label>
+                    </li>
+
+                    <li>
+                        <input id="answer3" type="radio">
+                        <label for="answer3">Stephen Hawking</label>
+                    </li>
+
+                    <li>
+                        <input id="answer4" type="radio">
+                        <label for="answer4">Michio Kaku</label>
+                    </li>
+
+                </ol>
+
+                <li>
+                    <audio controls>
+                        <source src="Question3.mp3" type="audio/mpeg" />
+                        <span>Your browser does not support audio files</span>
+                    </audio>
+                </li>
+
+                <ol type="A">
+                    <li>
+                        <input id="answer1" type="radio">
+                        <label for="answer1">Elon Musk</label>
+                    </li>
+
+                    <li>
+                        <input id="answer2" type="radio">
+                        <label for="answer2">Neil deGrass Tyson</label>
+                    </li>
+
+                    <li>
+                        <input id="answer3" type="radio">
+                        <label for="answer3">Mike Tyson</label>
+                    </li>
+
+                    <li>
+                        <input id="answer4" type="radio">
+                        <label for="answer4">Eddie Murphy</label>
+                    </li>
+                </ol>
+
+            </ol>
+            <input type="submit" value="Finish quiz">
+        </form>
+    </body>
+</html>
