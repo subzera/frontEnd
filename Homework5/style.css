@@ -1,0 +1,33 @@
+body{
+    background-color: #34495e;
+}
+
+h1{
+    color: white;
+}
+
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.person-info{
+    font-size: 10px;
+    font-weight: bold;
+    width: 350px;
+    background-color: #e74c3c;
+    display: inline-block;
+}
+
+span{
+    color: white;
+    font-family: Verdana;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.info{
+    color: rgb(214, 24, 24);
+}
