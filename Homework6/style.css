@@ -1,0 +1,109 @@
+body{
+    margin: 0 auto;
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#header{
+    position: fixed;
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+    margin-left: 190px;
+}
+
+#content{
+    background-color: #ffffff;
+    margin-top: 40px;
+    width: 800px;
+    margin-left: 280px;
+}
+
+#content form{
+    margin-top: 100px;
+    background-color: #202020;
+}
+
+
+#content img {
+    width: 400px;
+    height: 250px;
+}
+
+#navigation {
+    margin-top: 45px;
+    position: fixed;
+    color: white;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+#left-box {
+
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+}
+
+#content #left-box span{
+    color: white;
+}
+
+#left-box a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: -25px;
+    font-size: 20px;
+}
+
+#right-box {
+
+    float: right;
+    width: 400px;
+    margin-top: 30px;
+}
+
+#right-box img{
+    width: 400px;
+    margin-top: 82px;
+}
+
+#right-box #right-box-gallery img{
+    width: 400px;
+    margin-top: 0;
+}
+
+
+#content span {
+    color: white;
+}
+
+#content #right-box #carpic1 img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+#content #right-box #carpic2 img {
+    width: 400px;
+    margin-top: 20px;
+}
