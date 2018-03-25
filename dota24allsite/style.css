@@ -83,7 +83,7 @@ color: #FBAB16;
     border: 0px;
     padding: 3px;
     box-shadow: inset 0 -1px 1px #666 ;
-    width: 175px;
+    width: 175px;   
 }
 
 #sheet #headmenu #user-panel{
@@ -101,3 +101,86 @@ color: rgb(36, 36, 36);
     color: rgb(233, 233, 233);
 }
 
+
+
+#sheet #popularHeroes{
+    background-color: rgba(0, 0, 0, 0.877);
+    height: 700px;
+}
+
+#sheet #popularHeroes #mostpopular {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+#sheet #popularHeroes #mostpopular #headpopular {
+width: 1000px;
+height: 50px;
+margin: auto;
+}
+
+#sheet #popularHeroes #mostpopular #headpopular img {
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+#sheet #popularHeroes #mostpopular #banners {
+    width: 1000px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+#sheet #popularHeroes  .banner{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 38px;
+}
+
+#sheet #popularHeroes  .banner a:hover{
+    background-color: #FF9900;
+}
+
+#sheet #popularHeroes #future-chat {
+    height: 300px;
+}
+#sheet #popularHeroes #future-chat #menu-box {
+    
+}
+
+
+#sheet #popularHeroes #future-chat #menu-box #recentmatches-img img{
+    margin-left: 50px;
+    margin-right: 170px;
+    margin-top: 8px;
+    float: left;
+}
+
+#sheet #popularHeroes #future-chat #menu-box #chatbox-img img{
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+#sheet #popularHeroes #future-chat #recentmatches-cont {
+    float: left;
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    }
+
+#sheet #popularHeroes #future-chat #recentmatches-cont iframe {
+    width: 600px;
+    height: 310px;
+    }
+
+#sheet #popularHeroes #future-chat #comments textarea {
+    float: right;
+    margin-right: 105px;
+    background-color: #222222;
+    color: rgb(117, 117, 117);
+    }
