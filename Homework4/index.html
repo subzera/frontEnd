@@ -6,8 +6,9 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <style>
             span {
-            font-size:1.2em;
-            font-family: 'Nunito', sans-serif;
+                /* --- Поставяме таговете в HTML-а навътре за да са по-лесни за четене. Абсолютно същата логика следва и подредбата на CSS-a  */
+                font-size:1.2em;
+                font-family: 'Nunito', sans-serif;
             }
 
         </style>
@@ -15,12 +16,16 @@
 
     <body>
         <table>
-            <tr>
-                <td width="400"><img src="logo.png" height="100"> </td>
-                <td width="250"><a href="index.html"><button>News</button></a></td>
-                <td width="250"><a href="contact.html"><button>Contact us</button></a></td>
-                <td><a href="gallery.html"><button>Gallery</button></a></td>
-            </tr>
+            <!-- Независимо от това, че браузъра ще си добави <tbody> тага, свиквай да го поставяш сам. -->
+            <tbody>
+                <tr>
+                    <td width="400"><img src="logo.png" height="100"> </td>
+                    <!-- Попринцип, не е супер добра идея да използваш и <а> и <button> едновременно. Една от причините, е че ако обхождаш страницата със клавиатура (tab бутон) ще забележиш, че селектираш и бутона и <a> тага. -->
+                    <td width="250"><a href="index.html"><button>News</button></a></td>
+                    <td width="250"><a href="contact.html"><button>Contact us</button></a></td>
+                    <td><a href="gallery.html"><button>Gallery</button></a></td>
+                </tr>
+            </tbody>
         </table>
 
             <br />
