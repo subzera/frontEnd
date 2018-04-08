@@ -8,6 +8,7 @@
 
     <body>
         <h1>Участници в състезанието:</h1>
+        <!-- <h1> и <div> са на едно и също ниво, няма нужда да слагаш екстра табулации. Така само залъгва окото, че дивът се намира вътре във H1 тага -->
                 <div class="person-info">
                     <img src="person.png" />
                     <span>Петър Иванов</span>
@@ -41,8 +42,23 @@
                         <br />
                         <span>Телефон: </span> <span class="info">+359 88 331 6455</span> 
                     </div>
+            <!-- Ако имаш затварящ таг, е добра идея да имаш и отварящ такъв -->
+            <!-- </div> -->
 
+        <!-- Не че със float:left e грешно, но тъй като не го бяхме всели когато дадох домашното, тук давам вариант използващ само position и display -->
+
+        <div class="person-info">
+            <img src="person.png" />
+            <div class="personData">
+                <span>Иванка Тодорова</span>
+                <br />
+                <span>Години: </span> <span class="info">25</span> 
+                <br />
+                <span>Длъжност: </span> <span class="info">Мениджър</span>
+                <br />
+                <span>Телефон: </span> <span class="info">+359 88 331 6455</span> 
             </div>
+        </div>
 
     </body>
 </html>
