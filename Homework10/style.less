@@ -1,0 +1,129 @@
+@bgcolor: rgb(32, 32, 32) ;
+@hoverColor: rgb(145, 145, 145);
+@textAndHeadingColor: white;
+@fontFamily: verdana;
+
+.carpick() {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.links() {
+    font-family: @fontFamily;
+    text-decoration: none;
+    color: @textAndHeadingColor;
+
+    &:hover{
+        color: @hoverColor;
+    }
+}
+
+body{
+    margin: 0 auto;
+    position: absolute;
+    background-color: @bgcolor;
+}
+
+
+#navigation a {
+    .links();
+}
+
+p {
+    color: @textAndHeadingColor;
+}
+
+h1 {
+    color: @textAndHeadingColor;
+}
+
+
+
+#header{
+    position: fixed;
+    margin-left: 30px;
+    background-color: rgb(17, 16, 16);
+    padding: 10px;
+}
+
+#header a{
+    .links();
+    margin-right: 200px;
+    margin-left: 170px;
+}
+
+#content{
+    background-color: @textAndHeadingColor;
+    margin-top: 40px;
+    width: 800px;
+    margin-left: 280px;
+}
+
+#content form{
+    margin-top: 100px;
+    background-color: @bgcolor;
+}
+
+
+#content img {
+    width: 400px;
+    height: 250px;
+}
+
+#navigation {
+    margin-top: 45px;
+    position: fixed;
+    color: @textAndHeadingColor;
+    margin-left: 15px;
+}
+
+#navigation a{
+    .links();
+}
+
+#left-box {
+
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+}
+
+#content #left-box span{
+    color: @textAndHeadingColor;
+}
+
+#left-box a{
+    .links();
+    margin-left: -25px;
+    font-size: 20px;
+}
+
+#right-box {
+
+    float: right;
+    width: 400px;
+    margin-top: 30px;
+}
+
+#right-box img{
+    width: 400px;
+    margin-top: 82px;
+}
+
+#right-box #right-box-gallery img{
+    width: 400px;
+    margin-top: 0;
+}
+
+
+#content span {
+    color: @textAndHeadingColor;
+}
+
+#content #right-box #carpic1 img {
+    .carpick();
+}
+
+#content #right-box #carpic2 img {
+    .carpick();
+}

@@ -1,0 +1,105 @@
+body {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #202020;
+}
+#navigation a {
+  font-family: verdana;
+  text-decoration: none;
+  color: white;
+}
+#navigation a:hover {
+  color: #919191;
+}
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
+#header {
+  position: fixed;
+  margin-left: 30px;
+  background-color: #111010;
+  padding: 10px;
+}
+#header a {
+  font-family: verdana;
+  text-decoration: none;
+  color: white;
+  margin-right: 200px;
+  margin-left: 170px;
+}
+#header a:hover {
+  color: #919191;
+}
+#content {
+  background-color: white;
+  margin-top: 40px;
+  width: 800px;
+  margin-left: 280px;
+}
+#content form {
+  margin-top: 100px;
+  background-color: #202020;
+}
+#content img {
+  width: 400px;
+  height: 250px;
+}
+#navigation {
+  margin-top: 45px;
+  position: fixed;
+  color: white;
+  margin-left: 15px;
+}
+#navigation a {
+  font-family: verdana;
+  text-decoration: none;
+  color: white;
+}
+#navigation a:hover {
+  color: #919191;
+}
+#left-box {
+  width: 400px;
+  float: left;
+  margin-top: 30px;
+}
+#content #left-box span {
+  color: white;
+}
+#left-box a {
+  font-family: verdana;
+  text-decoration: none;
+  color: white;
+  margin-left: -25px;
+  font-size: 20px;
+}
+#left-box a:hover {
+  color: #919191;
+}
+#right-box {
+  float: right;
+  width: 400px;
+  margin-top: 30px;
+}
+#right-box img {
+  width: 400px;
+  margin-top: 82px;
+}
+#right-box #right-box-gallery img {
+  width: 400px;
+  margin-top: 0;
+}
+#content span {
+  color: white;
+}
+#content #right-box #carpic1 img {
+  width: 400px;
+  margin-top: 20px;
+}
+#content #right-box #carpic2 img {
+  width: 400px;
+  margin-top: 20px;
+}
